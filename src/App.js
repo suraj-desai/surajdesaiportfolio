@@ -9,20 +9,20 @@ class App extends React.Component{
     return (
       <div className="demo-big-content">
         <Layout>
-            <Header className="header--color" title="Title" scroll>
+            <Header className="header--color" title="Desai Suraj Ankush" scroll>
                 <Navigation>
+                  <Link to="/">Home</Link>
                   <Link to="/about">About</Link>
-                  <Link to="/resume">Resume</Link>
+                  <Link to="/education">Education</Link>
                   <Link to="/projects">Projects</Link>
-                  <Link to="/contact">Contact</Link>
                 </Navigation>
             </Header>
             <Drawer title="Title">
               <Navigation>
+                  <Link to="/">Home</Link>
                   <Link to="/about">About</Link>
-                  <Link to="/resume">Resume</Link>
+                  <Link to="/education">Education</Link>
                   <Link to="/projects">Projects</Link>
-                  <Link to="/contact">Contact</Link>
               </Navigation>
             </Drawer>
             <Content>
