@@ -126,12 +126,12 @@
 
 .projectContainer{
     background: #232526;
-    height: 100vh;
+    height: 145vh;
 }
 
 .projectInnerContainer{
     background-color: rgba(117, 103, 83, 0.24);
-    height: 70vh;
+    height: auto;
     display: flex;
     flex-wrap: wrap;
     margin:30px 30px;

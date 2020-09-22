@@ -11,8 +11,8 @@ class Projects extends React.Component{
                 </h2>
                 <hr/>
               <div className="projectInnerContainer">
-                <Card shadow={0} style={{width: '512px'}} className="projectContainer1 project">
-                    <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>Merchant customer
+                <Card shadow={0} style={{width: 'auto'}} className="projectContainer1 project">
+                    <CardTitle style={{color: '#fff', height: 'auto', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>Merchant customer
                     interface for payment</CardTitle>
                     <CardText>
                         <ul style={{fontSize:"medium"}}>
@@ -33,12 +33,12 @@ class Projects extends React.Component{
                         <IconButton name="share" />
                     </CardMenu> */}
                 </Card>
-                <Card shadow={0} style={{width: '512px'}} className="projectContainer2 project">
-                    <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>Personal Portfolio Website</CardTitle>
+                <Card shadow={0} style={{width: 'auto'}} className="projectContainer2 project">
+                    <CardTitle style={{color: '#fff', height: 'auto', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>Personal Portfolio Website</CardTitle>
                     <CardText>
                         <ul style={{fontSize:"medium"}}>
                             <li>Developed a personal portfolio website </li>
-                            <li>...</li>
+                            
                             <li>Tech-Stack : React, react-mdl</li>
                         </ul>
                     </CardText>
@@ -54,8 +54,8 @@ class Projects extends React.Component{
                         <IconButton name="share" />
                     </CardMenu> */}
                 </Card>
-                <Card shadow={0} style={{width: '512px'}} className="projectContainer3 project">
-                    <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>A To-Do App</CardTitle>
+                <Card shadow={0} style={{width: 'auto'}} className="projectContainer3 project">
+                    <CardTitle style={{color: '#fff', height: 'auto', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>A To-Do App</CardTitle>
                     <CardText>
                         <ul style={{fontSize:"medium"}}>
                             <li>Developed a To-Do app </li>
