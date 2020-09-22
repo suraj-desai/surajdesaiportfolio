@@ -8,7 +8,6 @@ class Projects extends React.Component{
                 <h2>
                     <i class="fa fa-laptop" aria-hidden="true"></i>
                     Projects
-                
                 </h2>
                 <hr/>
               <div className="projectInnerContainer">
