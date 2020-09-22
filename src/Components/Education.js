@@ -4,7 +4,10 @@ class Education extends React.Component{
         return(
           <div className="educationContainer"> 
             <div className="education">
-                <h2>Education</h2>
+                <h2>
+                    <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                    Education
+                </h2>
                 <hr/>
                 <section className="educationBlock">
                     <div className="educationDate">June, 2016 - June, 2020</div>

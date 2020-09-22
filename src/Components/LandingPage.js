@@ -15,9 +15,10 @@ class LandingPage extends React.Component{
                         />
                         <div className="landingContent">
                             <h1>Full Stack Developer</h1>
-                            <p> C++ | DS and algo | HTML/CSS | JavaScript | React | Express.js </p>
+                            <p> JavaScript | Ds and algo | HTML/CSS | C++ | React | Express.js </p>
                             <hr/>
                             <div className="socialLinks">
+                                
                                 <a href="https://www.linkedin.com/in/suraj-desai-621347142/" target="_blank" rel="noopener noreferrer">
                                     <i className="fa fa-linkedin-square" arai-hidden="true"/>
                                 </a>

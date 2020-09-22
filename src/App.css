@@ -1,7 +1,10 @@
 .header--color{
-    background: #232526;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #5889a1;  
+    background: -webkit-linear-gradient(to right, #365370, #868d91);  
+    background: linear-gradient(to right, #b8bec5, #4c8fb1); 
+    position: sticky;
+    top: 0;
+    width: 100%
 }
 
 .landingContainer{
@@ -11,9 +14,9 @@
     top:0;
     left:0;
     text-align: center;
-    background: #232526;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #232526;  
+    background: -webkit-linear-gradient(to right, #414345, #232526);  
+    background: linear-gradient(to right, #414345, #232526); 
 
 }
 
@@ -100,3 +103,76 @@
     color:green;
     font-weight: bold;
 }
+
+.about{
+    width:50%;
+}
+
+.info{
+    width:50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.firstInfo{
+    font-size: medium;
+    background-color: green;
+    border-radius: 5px;
+}
+
+.educationBlock h3{
+    padding-top: 30px;
+}
+
+.projectContainer{
+    background: #232526;
+    height: 100vh;
+}
+
+.projectInnerContainer{
+    background-color: rgba(117, 103, 83, 0.24);
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    margin:30px 30px;
+}
+
+.projectInnerContainer:hover{
+    background-color: rgba(146, 134, 118, 0.24);
+}
+
+
+.projectContainer1{
+    margin: auto;
+    margin-top: 30px;
+}
+
+.projectContainer2{
+    margin: auto;
+    margin-top: 30px;
+}
+
+.projectContainer3{
+    margin:auto;
+    margin-top: 30px;
+}
+
+.project:hover{
+    background-color: rgb(231, 223, 219);
+    cursor: pointer;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.projectContainer h2{
+    color: white;
+    margin-left: 40%;
+    padding-top: 3%;
+}
+
+.projectContainer hr{
+    margin: 30px 30px;
+    padding-bottom: 30px;
+    border-top: 5px dotted top;
+}
+
