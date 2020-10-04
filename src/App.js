@@ -26,7 +26,7 @@ class App extends React.Component{
               </Navigation>
             </Drawer>
             <Content>
-              <div className="page-content" />
+              {/* <div className="page-content" /> */}
               <MainRoutes/>
             </Content>
         </Layout>
