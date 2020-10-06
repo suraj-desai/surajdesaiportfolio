@@ -1,37 +1,50 @@
 import React from 'react';
 import { Grid, Cell } from 'react-mdl';
+import './../css/landing.css'
 
 class LandingPage extends React.Component{
     render(){
         return(
-            <div style={{width:'100%',margin:"auto"}}>
-                <Grid className="landingContainer">
-                    <Cell col={12} className="landingContainer__cell">
-                        <img
-                        // src={require("../static/avatar.png")}
-                        src="https://www.shareicon.net/data/2015/09/24/106427_man_512x512.png"
-                        alt="Avatar"
-                        className="avatar"
-                        />
-                        <div className="landingContent">
-                            <h1>Full Stack Developer</h1>
-                            <p> JavaScript | Ds and algo | HTML/CSS | C++ | React | Express.js </p>
-                            <hr/>
-                            <div className="socialLinks">
+            <div className="landingContainer">
+                <div className="landingContainer-landing">
+                    <div className="landingContainer-landing-info">
+                        <span className="common">Hey There!</span>
+                        <h3 className="common">I'm <span className="myName goldenColor">Suraj Desai</span></h3>
+                        <div className="fullstack goldenColor">Web Developer</div>
+                    </div>
+                </div>
+                <div className="landingContainer-intro">
+                        <h2 style={{color:"white",textAlign:"center"}} className="goldenColor">My Skills
+                            <div style={{backgroundImage:"linear-gradient(rgba(113, 12, 122, 0.9), rgba(7, 78, 8, 0.9))",padding:"2px",width:"5%",marginLeft:"48%",marginTop:"4px"}}></div>
+                        </h2>
 
-                                <a href="https://www.linkedin.com/in/suraj-desai-621347142/" target="_blank" rel="noopener noreferrer">
-                                    <i className="fa fa-linkedin-square" arai-hidden="true"/>
-                                </a>
-                                <a href="https://github.com/suraj-desai" target="_blank" rel="noopener noreferrer">
-                                    <i className="fa fa-github-square" arai-hidden="true"/>
-                                </a>
-                                <a href="https://bitbucket.org/suraj-desai/" target="_blank" rel="noopener noreferrer">
-                                    <i className="fa fa-bitbucket-square" arai-hidden="true"/>
-                                </a>
+                        <div className="progressBars" style={{display:"flex",flexWrap:"wrap",justifyContent:"center"}}>
+                            <div className="meter">
+                                <span style={{width: "85%"}}></span>
+                                <div style={{color:"white",paddingTop:"20px",fontSize:"20px"}} className="goldenColor">JavaScript</div>
+                            </div>
+                            <div className="meter">
+                                <span style={{width: "70%"}}></span>
+                                <div style={{color:"white",paddingTop:"20px",fontSize:"20px"}} className="goldenColor">C++</div>
+                            </div>
+                            <div className="meter">
+                                <span style={{width: "60%"}}></span>
+                                <div style={{color:"white",paddingTop:"20px",fontSize:"20px"}} className="goldenColor">React</div>
+                            </div>
+                            <div className="meter">
+                                <span style={{width: "60%"}}></span>
+                                <div style={{color:"white",paddingTop:"20px",fontSize:"20px"}} className="goldenColor">Express</div>
+                            </div>
+                            <div className="meter">
+                                <span style={{width: "65%"}}></span>
+                                <div style={{color:"white",paddingTop:"20px",fontSize:"20px"}} className="goldenColor">HTML</div>
+                            </div>
+                            <div className="meter">
+                                <span style={{width: "65%"}}></span>
+                                <div style={{color:"white",paddingTop:"20px",fontSize:"20px"}} className="goldenColor">CSS</div>
                             </div>
                         </div>
-                    </Cell>
-                </Grid>
+                </div>
             </div>
         )
     }

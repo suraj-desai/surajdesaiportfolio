@@ -2,11 +2,11 @@
     background: #5889a1;  
     background: -webkit-linear-gradient(to right, #365370, #868d91);  
     background: linear-gradient(to right, #b8bec5, #4c8fb1); 
-    position: sticky;
-    width: 50%;
+    position: sticky; 
+    top:0;
 }
-
-.landingContainer{
+/*
+.landingCotainer{
     width: 100%;
     height: 100%;
     top:0;
@@ -177,5 +177,4 @@
     margin: 30px 30px;
     padding-bottom: 30px;
     border-top: 5px dotted top;
-}
-
+} */
