@@ -1,12 +1,13 @@
 import React from 'react';
+import './../css/education.css';
 class About extends React.Component{
     render(){
         return(
-          <div className="educationContainer"> 
-            <div className="education about">
+          <div className="educationContainer" id="about"> 
+            <div className="education ">
                 <section className="educationBlock">
                     <h2>
-                        <i class="fa fa-user" aria-hidden="true"></i>
+                        <i className="fa fa-user" aria-hidden="true"></i>
                         About Me
                     
                     </h2>

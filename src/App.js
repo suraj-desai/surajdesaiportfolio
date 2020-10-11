@@ -1,35 +1,21 @@
 import React from 'react';
 import './App.css';
-import {Layout,Header,Navigation,Drawer,Content} from 'react-mdl';
-import MainRoutes from './Components/MainRoutes'
-import {Link} from 'react-router-dom';
+import './Components/LandingPage';
+import LandingPage from './Components/LandingPage';
+import MainRoutes from './Components/MainRoutes';
+import Projects from './Components/Projects';
+import About from './Components/About';
+import Education from './Components/Education';
 
 class App extends React.Component{
   render(){
     return (
-      <div className="demo-big-content">
-        <Layout>
-            <Header className="header--color" title="Desai Suraj Ankush" scroll>
-                <Navigation>
-                  <Link to="/">Home</Link>
-                  <Link to="/about">About</Link>
-                  <Link to="/education">Education</Link>
-                  <Link to="/projects">Projects</Link>
-                </Navigation>
-            </Header>
-            <Drawer title="Title">
-              <Navigation>
-                  <Link to="/">Home</Link>
-                  <Link to="/about">About</Link>
-                  <Link to="/education">Education</Link>
-                  <Link to="/projects">Projects</Link>
-              </Navigation>
-            </Drawer>
-            <Content>
-              {/* <div className="page-content" /> */}
+      <div>
               <MainRoutes/>
-            </Content>
-        </Layout>
+              <LandingPage/>
+              <About/>
+              <Education/>
+              <Projects/>
       </div>
     )
   }

@@ -1,20 +1,59 @@
 import React from 'react';
-import {Route,Switch} from 'react-router-dom';
-import About from './About';
-import LandingPage from './LandingPage';
-import Education from './Education';
-import Projects from './Projects';
-const MainRoutes=()=>{
-    return(
+import {Link} from 'react-scroll';
+const MainRoutes = function(){
+        return(
         <div>
-            <Switch>
-                <Route path="/about" component={About}/>
-                <Route path="/projects" component={Projects}/>
-                <Route path="/education" component={Education}/>
-                <Route path="/" component={LandingPage}/>
-            </Switch>
+          <div className="navigation">
+                <div>
+                  <Link
+                    activeClass="active"
+                    to="home"
+                    spy={true}
+                    smooth={true}
+                    offset={0}
+                    duration={1000}
+                  >Home
+                  </Link>
+                </div>
+                <div>
+                  <Link
+                    activeClass="active"
+                    to="about"
+                    spy={true}
+                    smooth={true}
+                    offset={0}
+                    duration={1000}
+                  >About
+                  </Link>
+                </div>
+
+                <div>
+                  <Link
+                    activeClass="active"
+                    to="education"
+                    spy={true}
+                    smooth={true}
+                    offset={0}
+                    duration={1500}
+                  >
+                    Education
+                  </Link>
+                </div>
+
+                <div>
+                  <Link
+                    activeClass="active"
+                    to="projects"
+                    spy={true}
+                    smooth={true}
+                    offset={0}
+                    duration={1000}
+                  >Projects
+                  </Link>
+                </div>
+          </div>
         </div>
-    )
-}
+        )
+};
 
 export default MainRoutes;

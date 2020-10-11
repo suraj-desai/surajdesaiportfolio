@@ -1,0 +1,72 @@
+.educationContainer{
+    background: #232526;
+    background: -webkit-linear-gradient(to right, #414345, #232526);
+    background: linear-gradient(to right, #414345, #232526);
+    border-bottom: 2px solid rgb(230, 209, 28);
+    margin: 0px;
+    padding-top: 50px;
+}
+.education{
+    width: 75%;
+    margin:auto;
+    color: white;
+}
+
+.education hr{
+    margin-top: 30px;
+    padding-bottom: 30px;
+    border-top: 5px dotted top;
+}
+
+.educationBlock{
+    margin-top: 30px;
+}
+.education h2{
+    padding-top: 25px;
+}
+
+.educationDate{
+    border:solid green;
+    border-radius: 5px;
+    width:200px;
+    padding:10px;
+    color:green;
+    font-weight: bold;
+}
+
+.educationDate:hover{
+    border:solid rgb(223, 157, 36);
+    border-radius: 5px;
+    width:200px;
+    padding:10px;
+    color:green;
+    font-weight: bold;
+}
+
+.about{
+    width:50%;
+}
+
+.info{
+    width:50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.firstInfo{
+    font-size: medium;
+    background-color: green;
+    border-radius: 5px;
+}
+
+.educationBlock h3{
+    padding-top: 30px;
+}
+
+@media screen and (max-width:600px){
+    .info p{
+        padding: .8rem;
+        font-size: 1rem;
+    }
+
+}

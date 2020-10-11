@@ -1,17 +1,30 @@
 import React from 'react';
-import { Grid, Cell } from 'react-mdl';
+import {Link} from 'react-scroll';
 import './../css/landing.css'
 
 class LandingPage extends React.Component{
     render(){
         return(
-            <div className="landingContainer">
+            <div className="landingContainer" id="home">
                 <div className="landingContainer-landing">
                     <div className="landingContainer-landing-info">
                         <span className="common">Hey There!</span>
                         <h3 className="common">I'm <span className="myName goldenColor">Suraj Desai</span></h3>
-                        <div className="fullstack goldenColor">Web Developer</div>
+                        <div className="fullstack">Web Developer</div>
                     </div>
+                    {/* <div id="toTop">Go to Top</div> */}
+                    <div id="toTop">
+                        <Link
+                            activeClass="active"
+                            to="home"
+                            spy={true}
+                            smooth={true}
+                            offset={0}
+                            duration={1000}
+                        >Top
+                        </Link>
+                    </div>
+
                 </div>
                 <div className="landingContainer-intro">
                         <h2 style={{color:"white",textAlign:"center"}} className="goldenColor">My Skills

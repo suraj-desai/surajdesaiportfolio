@@ -1,0 +1,46 @@
+.projectContainer{
+    height: 100vh;
+    background-color: #777;
+    padding-top: 10px;
+    width: 100%;
+}
+.projectInnerContainer{
+    /* align-content: center; */
+    width: 100%;
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project{
+    text-align: center;
+    /* box-sizing: border-box; */
+    /* margin: 0 70px; */
+    border-radius: 2px;
+    border: .8px solid rgb(250, 240, 240);
+    box-shadow: 0 10px 6px -6px rgb(77, 75, 75);
+    width: 25%;
+    height: 400px;
+    padding: 2% 2%;
+    background:rgb(82, 74, 74);
+    color:rgb(247, 242, 246);
+    /* margin-top: 10px; */
+    font-size: large;
+  }
+.projectContainer hr{
+    margin-top: 30px;
+    padding-bottom: 30px;
+    border-top: 5px dotted top;
+}
+
+@media screen and (max-width:600px){
+    .projectContainer{
+        height: 200vh;
+    }
+
+    .project{
+        width: 90%;
+        margin: 5px 0;
+    }
+
+}
