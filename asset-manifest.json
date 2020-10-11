@@ -1,25 +1,26 @@
 {
   "files": {
-    "main.css": "/surajdesaiportfolio/static/css/main.35de10b7.chunk.css",
-    "main.js": "/surajdesaiportfolio/static/js/main.1fbd9322.chunk.js",
-    "main.js.map": "/surajdesaiportfolio/static/js/main.1fbd9322.chunk.js.map",
+    "main.css": "/surajdesaiportfolio/static/css/main.8c4e77af.chunk.css",
+    "main.js": "/surajdesaiportfolio/static/js/main.0f7ff78d.chunk.js",
+    "main.js.map": "/surajdesaiportfolio/static/js/main.0f7ff78d.chunk.js.map",
     "runtime-main.js": "/surajdesaiportfolio/static/js/runtime-main.990dd4f0.js",
     "runtime-main.js.map": "/surajdesaiportfolio/static/js/runtime-main.990dd4f0.js.map",
     "static/css/2.e4346227.chunk.css": "/surajdesaiportfolio/static/css/2.e4346227.chunk.css",
-    "static/js/2.c63e5153.chunk.js": "/surajdesaiportfolio/static/js/2.c63e5153.chunk.js",
-    "static/js/2.c63e5153.chunk.js.map": "/surajdesaiportfolio/static/js/2.c63e5153.chunk.js.map",
+    "static/js/2.1f0ddbbb.chunk.js": "/surajdesaiportfolio/static/js/2.1f0ddbbb.chunk.js",
+    "static/js/2.1f0ddbbb.chunk.js.map": "/surajdesaiportfolio/static/js/2.1f0ddbbb.chunk.js.map",
     "index.html": "/surajdesaiportfolio/index.html",
-    "precache-manifest.aeafa080dd9e7548545ca44f24358958.js": "/surajdesaiportfolio/precache-manifest.aeafa080dd9e7548545ca44f24358958.js",
+    "precache-manifest.df2fcdb3974052cfb07975474c5f1c0a.js": "/surajdesaiportfolio/precache-manifest.df2fcdb3974052cfb07975474c5f1c0a.js",
     "service-worker.js": "/surajdesaiportfolio/service-worker.js",
     "static/css/2.e4346227.chunk.css.map": "/surajdesaiportfolio/static/css/2.e4346227.chunk.css.map",
-    "static/css/main.35de10b7.chunk.css.map": "/surajdesaiportfolio/static/css/main.35de10b7.chunk.css.map",
-    "static/js/2.c63e5153.chunk.js.LICENSE.txt": "/surajdesaiportfolio/static/js/2.c63e5153.chunk.js.LICENSE.txt"
+    "static/css/main.8c4e77af.chunk.css.map": "/surajdesaiportfolio/static/css/main.8c4e77af.chunk.css.map",
+    "static/js/2.1f0ddbbb.chunk.js.LICENSE.txt": "/surajdesaiportfolio/static/js/2.1f0ddbbb.chunk.js.LICENSE.txt",
+    "static/media/landing.css": "/surajdesaiportfolio/static/media/laptopBackground.de8cf92c.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.990dd4f0.js",
     "static/css/2.e4346227.chunk.css",
-    "static/js/2.c63e5153.chunk.js",
-    "static/css/main.35de10b7.chunk.css",
-    "static/js/main.1fbd9322.chunk.js"
+    "static/js/2.1f0ddbbb.chunk.js",
+    "static/css/main.8c4e77af.chunk.css",
+    "static/js/main.0f7ff78d.chunk.js"
   ]
 }
